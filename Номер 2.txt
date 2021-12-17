@@ -1,0 +1,7 @@
+from sympy import *
+import sympy
+
+x = Symbol('x')
+y = (exp(x))/(1 + 2*x)
+
+print('Производная =',diff(y))

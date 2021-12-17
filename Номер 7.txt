@@ -1,0 +1,11 @@
+from sympy import *
+import sympy
+
+t = Symbol('t')
+y = Symbol('y')
+
+x_diff = diff(2*cos(t))
+y_diff = diff(sin(t))
+last = y_diff / x_diff
+
+print('Производная =',last)

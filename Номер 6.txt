@@ -1,0 +1,13 @@
+import sympy as sp
+
+x, y = sp.symbols('x y')
+
+f = x - y - sp.asin(x) + sp.asin(y)
+
+f1 = f.diff(x)
+f2 = f.diff(y)
+f3 = -f1/f2
+
+print("f' =", f3)
+
+fig = sp.

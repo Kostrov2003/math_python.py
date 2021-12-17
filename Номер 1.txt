@@ -1,0 +1,7 @@
+from sympy import *
+import sympy
+
+x = Symbol('x')
+y = (x**2 + 2*x ) * (sqrt(x) - 1/x)
+
+print('Производная =',diff(y))

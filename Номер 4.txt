@@ -1,0 +1,7 @@
+from sympy import *
+import sympy
+
+x = Symbol('x')
+y = acos((1)/(sqrt(x)))
+
+print('Производная =',diff(y))

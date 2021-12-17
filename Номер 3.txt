@@ -1,0 +1,7 @@
+from sympy import *
+import sympy
+
+x = Symbol('x')
+y = ln(1 + sin(x))
+
+print('Производная =',diff(y))
